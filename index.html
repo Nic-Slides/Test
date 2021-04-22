@@ -71,7 +71,9 @@
         </section>
         <section data-background-image="assets/ostrich-head-in-sand.jpg">
           <h2 class="img-bg">&lt;body aria-hidden="true"&gt;</h2>
-          <p class="sr-only">Background image: An ostrish sticking its head in sand.</p>
+          <div role="img" aria-labelledby="ostrich">
+            <p id="ostrich"class="sr-only">An ostrich sticking its head in sand.</p>
+          </div>
           </section>
         <section data-background-image="assets/background-wide-theme.png">
           <h2>Nicolas Steenhout</h2>
@@ -114,7 +116,9 @@
         </section>
         <section data-background-image="assets/owl-turned-head.jpg">
           <h2>Not a thing!</h2>
-          <p class="sr-only">Background image alternate text: An owl with its head twisted upside down, looking really puzzled.</p>
+          <div role="img" aria-labelledby="owl">
+            <p id="owl" class="sr-only">An owl with its head twisted upside down, looking really puzzled.</p>
+          </div>
           <pre><code data-trim data-noescape>
           aria-role
           </code></pre>
@@ -141,6 +145,24 @@
           &lt;input aria-describedby="someid"&gt;
           &lt;p id="someid"&gt;One thing&lt;/p&gt;
           &lt;p id="someid"&gt;A different thing&lt;/p&gt;
+          </code></pre>
+        </section>
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Not quite the same thing</h2>
+          <pre><code data-trim data-noescape>
+          aria-label
+          </code></pre>
+          <p>vs.</p>
+          <pre><code data-trim data-noescape>
+          aria-labelledby
+          </code></pre>
+        </section>
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Might or might not work</h2>
+          <pre><code data-trim data-noescape>
+          &lt;div aria-describedby="randomid1"&gt;
+          &lt;p aria-labelledby="randomid2"&gt;
+          &lt;span aria-label="Some random stuff"&gt;
           </code></pre>
         </section>
         <section>
