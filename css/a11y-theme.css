@@ -13,12 +13,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --background-color: #153a7e;
-  --main-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+  --main-font: "Gill sans", "Noto sans", sans-serif;
   --main-font-size: 40px;
   --main-color: #000;
   --block-margin: 20px;
   --heading-margin: 0 0 20px 0;
-  --heading-font: Palatino Linotype, Book Antiqua, Palatino, FreeSerif, serif;
+  --heading-font: Didot, Book Antiqua, Palatino, FreeSerif, serif;
   --heading-color: #D0D5D8;
   --heading-line-height: 1.2;
   --heading-letter-spacing: normal;
@@ -42,7 +42,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 background-color: #153a7e}
 
 .reveal {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-family: "Gill sans", "Noto sans", sans-serif;
   font-size: 40px;
   font-weight: normal;
   color: #fff; }
@@ -73,7 +73,7 @@ background-color: #153a7e}
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #D0D5D8;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, FreeSerif, serif;
+  font-family: Didot, "Book Antiqua", Palatino, FreeSerif, serif;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
