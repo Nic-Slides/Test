@@ -163,7 +163,7 @@
           <p>In which circumstances might you need to avoid using <code>&lt;label&gt;</code>?</p>
         </section>
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>aria-label</h2>
+          <h2>aria-labelledby</h2>
           <ul>
             <li>Requires a separate element's ID</li>
             <li>Useful if content already exists on the page</li>
@@ -171,7 +171,7 @@
           </ul>
         </section>
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>aria-labelledby</h2>
+          <h2>aria-label</h2>
           <ul>
             <li>Requires a text string</li>
             <li>Useful if content not already on the page</li>
@@ -186,6 +186,32 @@
           &lt;span aria-label="Some random stuff"&gt;
           </code></pre>
         </section>
+        
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Not quite the same thing</h2>
+          <pre><code data-trim data-noescape>
+          aria-hidden
+          </code></pre>
+          <p>vs.</p>
+          <pre><code data-trim data-noescape>
+          role="presentation"
+          </code></pre>
+        </section>
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>aria-hidden</h2>
+          <ul>
+            <li>Hides the element and its content from assistive technology</li>
+          </ul>
+        </section>
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>role="presentation"</h2>
+          <ul>
+            <li>Removes the semantic meaning of the element</li>
+          </ul>
+        </section>
+        
+        
         <section>
           <h2>Questions? &nbsp; &nbsp;Thank you!</h2>
           <p>Nicolas Steenhout</p>
