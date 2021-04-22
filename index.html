@@ -159,34 +159,34 @@
           aria-labelledby
           </code></pre>
         </section>
-        <section data-background-image="assets/background-wide-theme.png">
+        <!--<section data-background-image="assets/background-wide-theme.png">
           <h2>First rule of ARIA</h2>
           <p>Don't use ARIA if you don't need to!</p>
           <p>In which circumstances might you need to avoid using <code>&lt;label&gt;</code>?</p>
-        </section>
+        </section>-->
         <section data-background-image="assets/background-wide-theme.png">
           <h2>aria-labelledby</h2>
-          <ul>
-            <li>Requires a separate element's ID</li>
-            <li>Useful if content already exists on the page</li>
-            <li>Can be automatically translated</li>
-          </ul>
           <pre><code data-trim data-noescape>
           &lt;input aria-labelledby="label1"&gt;
           
           &lt;p id="label1"&gt;Some label&lt;p&gt;
           </code></pre>
+          <ul>
+            <li>Requires a separate element's ID</li>
+            <li>Useful if content already exists on the page</li>
+            <li>Can be automatically translated</li>
+          </ul>
         </section>
         <section data-background-image="assets/background-wide-theme.png">
           <h2>aria-label</h2>
+          <pre><code data-trim data-noescape>
+          &lt;input aria-label="Some label"&gt;
+          </code></pre>
           <ul>
             <li>Requires a text string</li>
             <li>Useful if content not already on the page</li>
             <li>Cannot be automatically translated</li>
           </ul>
-          <pre><code data-trim data-noescape>
-          &lt;input aria-label="Some label"&gt;
-          </code></pre>
         </section>
         <section data-background-image="assets/background-wide-theme.png">
           <h2>Might or might not work</h2>
