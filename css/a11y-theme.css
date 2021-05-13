@@ -342,6 +342,7 @@ background-color: #153a7e}
   top: 75%;
 }
 
-.accessibilityWrapper {
+.reveal .accessibilityWrapper {
  margin-top: -3em; 
+  border: 2px solid red; 
 }
