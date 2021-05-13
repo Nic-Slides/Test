@@ -322,8 +322,9 @@ background-color: #153a7e}
 
 .reveal h2 {
   position: absolute;
-  top: -1em;
+  top: -3em;
   margin: auto 0;
+  width: 100%;
 }
 
 .right {
