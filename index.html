@@ -226,8 +226,7 @@
         </section>
     
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Error messages</h2>
-          <h3>What we often see!</h3>
+          <h2>Error messages - Found in the wild</h2>
           <pre><code data-trim data-noescape>
           &lt;input type="text" id="FirstName"&gt;
           &lt;p&gt;First name can't be empty&lt;p&gt;
@@ -238,8 +237,7 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Error messages</h2>
-          <h3>What should be done!</h3>
+          <h2>Error messages - A better approach</h2>
           <pre><code data-trim data-noescape>
           &lt;input type="text" id="FirstName" aria-describedby="errFirstName"&gt;
           &lt;p id="errFirstName"&gt;First name can't be empty&lt;p&gt;
@@ -250,8 +248,7 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Required fields</h2>
-          <h3>Typically seen</h3>
+          <h2>Required fields - Visual notification</h2>
           <pre><code data-trim data-noescape>
           &lt;label for="FirstName"&gt;First Name *&lt;/label&gt;
           </code></pre>
@@ -262,8 +259,7 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Required fields</h2>
-          <h3>Possible approach</h3>
+          <h2>Required fields - A better way</h2>
           <pre><code data-trim data-noescape>
           &lt;label for="FirstName"&gt;First Name *&lt;/label&gt;
           </code></pre>
@@ -274,7 +270,7 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Required fields</h2>
+          <h2>Required fields - Programmatic notification</h2>
           <pre><code data-trim data-noescape>
           &lt;label for="FirstName"&gt;First Name &lt;span aria-hidden="true"&gt;*&lt;/span&gt;&lt;/label&gt;
           </code></pre>
@@ -298,8 +294,7 @@
        
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Required fields</h2>
-          <h3>required HTML5 attribute</h3>
+          <h2>Required fields - required HTML5 attribute</h2>
           <p>Don't use ARIA if there's a native HTML way of doing things, right?</p>
           <ul>
             <li>Automatically announces a field as “invalid” the 1st time focus is set to it</li>
@@ -309,8 +304,7 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
-          <h2>Required fields</h2>
-          <h3>aria-required ARIA attribute</h3>
+          <h2>Required fields - aria-required ARIA attribute</h2>
           <ul>
             <li>Does not suffer from the downfalls of the "required" attribute!</li>
           </ul>
