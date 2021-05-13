@@ -316,17 +316,10 @@ background-color: #153a7e}
 
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
-  color: green;
+  color: #000000;
   border-radius: 20px;
   padding: 10px;
 }
-
-/*.reveal h2 {
-  position: relative;
-  top: -300px;
-  margin: 20px 0;
-  width: 100%;
-}*/
 
 .right {
   text-align:right;
@@ -335,10 +328,4 @@ background-color: #153a7e}
 .left {
   text-align:left;
 }
-
-.top {
-  position:relative;
-  top: -100px;
-}
-
 
