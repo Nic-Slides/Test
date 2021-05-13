@@ -317,13 +317,13 @@ background-color: #153a7e}
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
   /*color: #000000;*/
-  color:red;
+  color:green;
   border-radius: 20px;
   padding: 10px;
 }
 
 .reveal h2 {
-  position: absolute;
+  position: relative;
   top: -3em;
   margin: 20px 0;
   width: 100%;
