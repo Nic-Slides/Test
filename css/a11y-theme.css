@@ -343,6 +343,6 @@ background-color: #153a7e}
 }
 
 .reveal .accessibilityWrapper {
-  padding-to: -3em;
-  border: 2px solid white; 
+  padding-top: -3em;
+  border: 2px solid black; 
 }
