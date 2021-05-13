@@ -317,17 +317,17 @@ background-color: #153a7e}
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
   /*color: #000000;*/
-  color:orange;
+  color:purple;
   border-radius: 20px;
   padding: 10px;
 }
 
-.reveal h2 {
+/*.reveal h2 {
   position: relative;
   top: -300px;
   margin: 20px 0;
   width: 100%;
-}
+}*/
 
 .right {
   text-align:right;
@@ -343,9 +343,9 @@ background-color: #153a7e}
 }
 
 .reveal .accessibilityWrapper {
-  display: flex;
-  flex-flow: column nowrap;
-justify-content: center;
-align-items: center;
+  display: flex !important;
+  flex-flow: column nowrap !important;
+justify-content: center !important;
+align-items: center !important;
   border: 2px solid red; 
 }
