@@ -317,14 +317,14 @@ background-color: #153a7e}
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
   /*color: #000000;*/
-  color:purple;
+  color:orange;
   border-radius: 20px;
   padding: 10px;
 }
 
 .reveal h2 {
   position: relative;
-  top: 0;
+  top: -300px;
   margin: 20px 0;
   width: 100%;
 }
@@ -343,6 +343,6 @@ background-color: #153a7e}
 }
 
 .reveal .accessibilityWrapper {
-  padding-top: -3em;
-  border: 2px solid black; 
+  margin: -100px 0 0 0;
+  border: 2px solid green; 
 }
