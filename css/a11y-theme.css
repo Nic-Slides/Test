@@ -316,8 +316,7 @@ background-color: #153a7e}
 
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
-  /*color: #000000;*/
-  color:green;
+  color: #000000;
   border-radius: 20px;
   padding: 10px;
 }
@@ -339,13 +338,7 @@ background-color: #153a7e}
 
 .top {
   position:relative;
-  top: 75%;
+  top: -100px;
 }
 
-.reveal .accessibilityWrapper {
-  display: flex !important;
-  flex-flow: column nowrap !important;
-justify-content: center !important;
-align-items: center !important;
-  border: 2px solid red; 
-}
+
