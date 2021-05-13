@@ -167,6 +167,18 @@
             <li>Cannot be automatically translated</li>
           </ul>
         </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>aria-describedby</h2>
+          <pre><code data-trim data-noescape>
+          &lt;input aria-describedby="SomeID"&gt;
+          </code></pre>
+          <ul>
+            <li>Requires a separate element's ID</li>
+            <li>Useful to associate elements together programmatically</li>
+          </ul>
+        </section>
+        
         <section data-background-image="assets/background-wide-theme.png">
           <h2>aria-label</h2>
           <p>Cannot be automatically translated!</p>
@@ -206,6 +218,64 @@
           <h2>role="presentation"</h2>
           <ul>
             <li>Removes the semantic meaning of the element</li>
+          </ul>
+        </section>
+        
+        
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Error messages</h2>
+          <h3>What we often see!</h3>
+          <pre><code data-trim data-noescape>
+          &lt;input type="text" id="FirstName"&gt;
+          &lt;p&gt;First name can't be empty&lt;p&gt;
+          </code></pre>
+          <ul>
+            <li>No association between input and error message.</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Error messages</h2>
+          <h3>What should be done!</h3>
+          <pre><code data-trim data-noescape>
+          &lt;input type="text" id="FirstName" aria-describedby="errFirstName"&gt;
+          &lt;p id="errFirstName"&gt;First name can't be empty&lt;p&gt;
+          </code></pre>
+          <ul>
+            <li>Explicit association of the two elements.</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
           </ul>
         </section>
         
