@@ -316,8 +316,14 @@ background-color: #153a7e}
 
 .img-bg, h2.img-bg {
   background-color: rgb(153,153,153,0.8);
-  color: #000000;
+  /*color: #000000;*/
+  color: red;
   border-radius: 20px;
+}
+
+.reveal h2 {
+  position: relative;
+  top: 0;
 }
 
 .right {
