@@ -318,12 +318,13 @@ background-color: #153a7e}
   background-color: rgb(153,153,153,0.8);
   color: #000000;
   border-radius: 20px;
+  padding: 10px;
 }
 
 .reveal h2 {
   position: absolute;
   top: -3em;
-  margin: auto 0;
+  margin: auto 20px;
   width: 100%;
 }
 
