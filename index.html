@@ -172,6 +172,7 @@
           <h2>aria-describedby</h2>
           <pre><code data-trim data-noescape>
           &lt;input aria-describedby="SomeID"&gt;
+          &lt;p id="SomeID"&gt;Some text describing the input&lt;p&gt;
           </code></pre>
           <ul>
             <li>Requires a separate element's ID</li>
@@ -186,6 +187,7 @@
           <p>If there's any chance of a user needing translation, the label element is better</p>
          
         </section>
+        
         <section data-background-image="assets/background-wide-theme.png">
           <h2>Might or might not work</h2>
           <pre><code data-trim data-noescape>
@@ -208,21 +210,21 @@
           role="presentation"
           </code></pre>
         </section>
+        
         <section data-background-image="assets/background-wide-theme.png">
           <h2>aria-hidden</h2>
           <ul>
             <li>Hides the element and its content from assistive technology</li>
           </ul>
         </section>
+        
         <section data-background-image="assets/background-wide-theme.png">
           <h2>role="presentation"</h2>
           <ul>
             <li>Removes the semantic meaning of the element</li>
-          </ul>
+          </ul><!--SSSSSSSSSSSadd code sample-->
         </section>
-        
-        
-        
+    
         <section data-background-image="assets/background-wide-theme.png">
           <h2>Error messages</h2>
           <h3>What we often see!</h3>
@@ -248,30 +250,156 @@
         </section>
         
         <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <h3>Typically seen</h3>
+          <pre><code data-trim data-noescape>
+          &lt;label for="FirstName"&gt;First Name *&lt;/label&gt;
+          </code></pre>
+          <ul>
+            <li>Asterisk announced as "star". May or may not be easily understood by screen reader users</li>
+            <li>Adds to the cognitive load</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <h3>Possible approach</h3>
+          <pre><code data-trim data-noescape>
+          &lt;label for="FirstName"&gt;First Name *&lt;/label&gt;
+          </code></pre>
+          <ul>
+            <li>Asterisk announced as "star". May or may not be easily understood by screen reader users</li>
+            <li>Adds to the cognitive load</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <pre><code data-trim data-noescape>
+          &lt;label for="FirstName"&gt;First Name &lt;span aria-hidden="true"&gt;*&lt;/span&gt;&lt;/label&gt;
+          </code></pre>
+          <ul>
+            <li>Programmatically hide the asterisk for screen reader users</li>
+            <li>Reduce cognitive load</li>
+            <li>Assumes the &lt;input&gt; has been programmatically amd correctly marked as required.</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <pre><code data-trim data-noescape>
+          &lt;input required type="text"&gt;
+          </code></pre>
+          <p>vs.</p>
+          <pre><code data-trim data-noescape>
+          &lt;input aria-required="true" type="text"&gt;
+          </code></pre>
+        </section>
+       
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <h3>required HTML5 attribute</h3>
+          <p>Don't use ARIA if there's a native HTML way of doing things, right?</p>
+          <ul>
+            <li>Automatically announces a field as “invalid” the 1st time focus is set to it</li>
+            <li>Triggers a client-side validation that fails WCAG.</li>
+            <li>Generic, non persistent error messages.</li>
+          </ul>
+        </section>
+        
+        <section data-background-image="assets/background-wide-theme.png">
+          <h2>Required fields</h2>
+          <h3>aria-required ARIA attribute</h3>
+          <ul>
+            <li>Does not suffer from the downfalls of the "required" attribute!</li>
+          </ul>
+          
+        </section><section data-background-image="assets/background-wide-theme.png">
           <h2></h2>
           <ul>
             <li></li>
             <li></li>
           </ul>
-        </section>
-        
-        <section data-background-image="assets/background-wide-theme.png">
+        </section><section data-background-image="assets/background-wide-theme.png">
           <h2></h2>
           <ul>
             <li></li>
             <li></li>
           </ul>
-        </section>
-        
-        <section data-background-image="assets/background-wide-theme.png">
+        </section><section data-background-image="assets/background-wide-theme.png">
           <h2></h2>
           <ul>
             <li></li>
             <li></li>
           </ul>
-        </section>
-        
-        <section data-background-image="assets/background-wide-theme.png">
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
+          <h2></h2>
+          <ul>
+            <li></li>
+            <li></li>
+          </ul>
+        </section><section data-background-image="assets/background-wide-theme.png">
           <h2></h2>
           <ul>
             <li></li>
