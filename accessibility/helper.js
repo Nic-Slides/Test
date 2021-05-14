@@ -59,7 +59,7 @@ function SlideAccessibility() {
     slideArray[index].setAttribute('aria-label', 'Slide ' + decorateIndices(1, ', child '));
 
     var contents = slideArray[index].innerHTML;
-    slideArray[index].innerHTML = '<div class="accessibilityWrapper">' + contents + '</div>';
+    slideArray[index].innerHTML = '<div class="accessibilityWrapper flex-apart">' + contents + '</div>';
   }
 };
 
