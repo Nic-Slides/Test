@@ -329,3 +329,22 @@ background-color: #153a7e}
   text-align:left;
 }
 
+/*********************************************
+* AMY ADDED STYLES
+********************************************/
+.reveal h2 {
+  width: 100%;
+}
+
+.img-bg-dark {
+  background-color: rgb(0,0,0,.7);
+  padding: .125em .2em;
+}
+
+.flex-apart {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
